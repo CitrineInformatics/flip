@@ -17,7 +17,8 @@ module Flip
     end
 
     def flip_feature_disabled key
-      raise Flip::Forbidden.new(key)
+      redirect_to root_path
+      # raise Flip::Forbidden.new(key)
     end
 
   end

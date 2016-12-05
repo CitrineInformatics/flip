@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "flip/version"
 
 Gem::Specification.new do |s|
-  s.name        = "flip"
+  s.name        = "flip2"
   s.version     = Flip::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Paul Annesley"]
-  s.email       = ["paul@annesley.cc"]
-  s.homepage    = "https://github.com/pda/flip"
+  s.authors     = [""]
+  s.email       = [""]
+  s.homepage    = ""
   s.summary     = %q{A feature flipper for Rails web applications.}
   s.description = %q{Declarative API for specifying features, switchable in declaration, database and cookies.}
   s.license  = "MIT"
